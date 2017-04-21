@@ -1,0 +1,6 @@
+# PatchUpdate
+利用bsdiff和bspatch进行增量更新
+
+tools&example中包含编译好的bsdiff和bspatch工具,示例中包含apk_old.apk和apk_new.apk,并通过bsdiff生成的差分包update.patch
+安装apk_old.apk并把update.patch放进SD卡，打开app，点击更新，可更新到apk_new.apk并自动提示安装
+
